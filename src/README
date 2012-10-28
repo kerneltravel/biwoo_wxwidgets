@@ -1,0 +1,33 @@
+					
+	------------------------------------------ 2010-05-19
+
+	Description:
+	============
+					
+ Biwoo is a based MyCP and wxWidgets, open-source, cross-platform enterprise communication software.
+ Biwoo support enterprise multi-level departments, project group organization structure.
+ Support P2P AV chat, file send, image send, group chat, offline messages, chat logs.
+  
+ Email			: akee.yang@gmail.com
+ Home page	: http://code.google.com/p/biwoo/
+ Wiki				: http://code.google.com/p/biwoo/w/list
+
+
+	Project Dependents:
+	===================
+
+ Server:
+ biwoo -> mycp & bodb
+ 	mycp -> boost & libRTP
+ 		libRTP -> jrtplib & jthread & boost
+ 	bodb -> boost
+ StreamModule -> mycp & libSIP & libG729a
+  libSIP -> libosip2 & libeXosip2
+ 
+ Client:
+ biwooclient -> biwoolib & libStreamX & wxWidgets
+  biwoolib -> mycp & bodb & libCoder
+   libCoder -> ffmpeg & x264 & xvidcore
+ 	libStreamX -> libDS & libStreamClient
+ 	 libDS -> DirectShow & boost & libCoder & libG729a
+ 	 libStreamClient -> mycp

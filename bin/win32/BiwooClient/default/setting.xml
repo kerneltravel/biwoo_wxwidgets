@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+	<server>
+		<address>192.168.19.89:8012</address>
+	</server>
+	<locale>chs</locale>
+	<langtext>langtext_en.xml</langtext>
+
+</root>
